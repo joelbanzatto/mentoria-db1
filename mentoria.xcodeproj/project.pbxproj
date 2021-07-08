@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA064B2269767E90091C34A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA064B1269767E90091C34A /* AppDelegate.swift */; };
+		FAA064B4269767E90091C34A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA064B3269767E90091C34A /* SceneDelegate.swift */; };
+		FAA064B6269767E90091C34A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA064B5269767E90091C34A /* ViewController.swift */; };
+		FAA064B9269767E90091C34A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA064B7269767E90091C34A /* Main.storyboard */; };
+		FAA064BC269767E90091C34A /* mentoria.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA064BA269767E90091C34A /* mentoria.xcdatamodeld */; };
+		FAA064BE269767ED0091C34A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA064BD269767ED0091C34A /* Assets.xcassets */; };
+		FAA064C1269767ED0091C34A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA064BF269767ED0091C34A /* LaunchScreen.storyboard */; };
+		FAA064CC269767ED0091C34A /* mentoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA064CB269767ED0091C34A /* mentoriaTests.swift */; };
+		FAA064D7269767ED0091C34A /* mentoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA064D6269767ED0091C34A /* mentoriaUITests.swift */; };
+		FAA064E5269772950091C34A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA064E4269772950091C34A /* ViewController2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA064C8269767ED0091C34A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA064A6269767E90091C34A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA064AD269767E90091C34A;
+			remoteInfo = mentoria;
+		};
+		FAA064D3269767ED0091C34A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA064A6269767E90091C34A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA064AD269767E90091C34A;
+			remoteInfo = mentoria;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA064AE269767E90091C34A /* mentoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mentoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA064B1269767E90091C34A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA064B3269767E90091C34A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAA064B5269767E90091C34A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA064B8269767E90091C34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA064BB269767E90091C34A /* mentoria.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mentoria.xcdatamodel; sourceTree = "<group>"; };
+		FAA064BD269767ED0091C34A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA064C0269767ED0091C34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA064C2269767ED0091C34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA064C7269767ED0091C34A /* mentoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mentoriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA064CB269767ED0091C34A /* mentoriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentoriaTests.swift; sourceTree = "<group>"; };
+		FAA064CD269767ED0091C34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA064D2269767ED0091C34A /* mentoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mentoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA064D6269767ED0091C34A /* mentoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentoriaUITests.swift; sourceTree = "<group>"; };
+		FAA064D8269767ED0091C34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA064E4269772950091C34A /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA064AB269767E90091C34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA064C4269767ED0091C34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA064CF269767ED0091C34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA064A5269767E90091C34A = {
+			isa = PBXGroup;
+			children = (
+				FAA064B0269767E90091C34A /* mentoria */,
+				FAA064CA269767ED0091C34A /* mentoriaTests */,
+				FAA064D5269767ED0091C34A /* mentoriaUITests */,
+				FAA064AF269767E90091C34A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA064AF269767E90091C34A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA064AE269767E90091C34A /* mentoria.app */,
+				FAA064C7269767ED0091C34A /* mentoriaTests.xctest */,
+				FAA064D2269767ED0091C34A /* mentoriaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA064B0269767E90091C34A /* mentoria */ = {
+			isa = PBXGroup;
+			children = (
+				FAA064B1269767E90091C34A /* AppDelegate.swift */,
+				FAA064B3269767E90091C34A /* SceneDelegate.swift */,
+				FAA064B5269767E90091C34A /* ViewController.swift */,
+				FAA064B7269767E90091C34A /* Main.storyboard */,
+				FAA064BD269767ED0091C34A /* Assets.xcassets */,
+				FAA064BF269767ED0091C34A /* LaunchScreen.storyboard */,
+				FAA064C2269767ED0091C34A /* Info.plist */,
+				FAA064BA269767E90091C34A /* mentoria.xcdatamodeld */,
+				FAA064E4269772950091C34A /* ViewController2.swift */,
+			);
+			path = mentoria;
+			sourceTree = "<group>";
+		};
+		FAA064CA269767ED0091C34A /* mentoriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA064CB269767ED0091C34A /* mentoriaTests.swift */,
+				FAA064CD269767ED0091C34A /* Info.plist */,
+			);
+			path = mentoriaTests;
+			sourceTree = "<group>";
+		};
+		FAA064D5269767ED0091C34A /* mentoriaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA064D6269767ED0091C34A /* mentoriaUITests.swift */,
+				FAA064D8269767ED0091C34A /* Info.plist */,
+			);
+			path = mentoriaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA064AD269767E90091C34A /* mentoria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA064DB269767ED0091C34A /* Build configuration list for PBXNativeTarget "mentoria" */;
+			buildPhases = (
+				FAA064AA269767E90091C34A /* Sources */,
+				FAA064AB269767E90091C34A /* Frameworks */,
+				FAA064AC269767E90091C34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mentoria;
+			productName = mentoria;
+			productReference = FAA064AE269767E90091C34A /* mentoria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA064C6269767ED0091C34A /* mentoriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA064DE269767ED0091C34A /* Build configuration list for PBXNativeTarget "mentoriaTests" */;
+			buildPhases = (
+				FAA064C3269767ED0091C34A /* Sources */,
+				FAA064C4269767ED0091C34A /* Frameworks */,
+				FAA064C5269767ED0091C34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA064C9269767ED0091C34A /* PBXTargetDependency */,
+			);
+			name = mentoriaTests;
+			productName = mentoriaTests;
+			productReference = FAA064C7269767ED0091C34A /* mentoriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA064D1269767ED0091C34A /* mentoriaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA064E1269767ED0091C34A /* Build configuration list for PBXNativeTarget "mentoriaUITests" */;
+			buildPhases = (
+				FAA064CE269767ED0091C34A /* Sources */,
+				FAA064CF269767ED0091C34A /* Frameworks */,
+				FAA064D0269767ED0091C34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA064D4269767ED0091C34A /* PBXTargetDependency */,
+			);
+			name = mentoriaUITests;
+			productName = mentoriaUITests;
+			productReference = FAA064D2269767ED0091C34A /* mentoriaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA064A6269767E90091C34A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FAA064AD269767E90091C34A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FAA064C6269767ED0091C34A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FAA064AD269767E90091C34A;
+					};
+					FAA064D1269767ED0091C34A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FAA064AD269767E90091C34A;
+					};
+				};
+			};
+			buildConfigurationList = FAA064A9269767E90091C34A /* Build configuration list for PBXProject "mentoria" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA064A5269767E90091C34A;
+			productRefGroup = FAA064AF269767E90091C34A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA064AD269767E90091C34A /* mentoria */,
+				FAA064C6269767ED0091C34A /* mentoriaTests */,
+				FAA064D1269767ED0091C34A /* mentoriaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA064AC269767E90091C34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA064C1269767ED0091C34A /* LaunchScreen.storyboard in Resources */,
+				FAA064BE269767ED0091C34A /* Assets.xcassets in Resources */,
+				FAA064B9269767E90091C34A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA064C5269767ED0091C34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA064D0269767ED0091C34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA064AA269767E90091C34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA064E5269772950091C34A /* ViewController2.swift in Sources */,
+				FAA064BC269767E90091C34A /* mentoria.xcdatamodeld in Sources */,
+				FAA064B6269767E90091C34A /* ViewController.swift in Sources */,
+				FAA064B2269767E90091C34A /* AppDelegate.swift in Sources */,
+				FAA064B4269767E90091C34A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA064C3269767ED0091C34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA064CC269767ED0091C34A /* mentoriaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA064CE269767ED0091C34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA064D7269767ED0091C34A /* mentoriaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA064C9269767ED0091C34A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA064AD269767E90091C34A /* mentoria */;
+			targetProxy = FAA064C8269767ED0091C34A /* PBXContainerItemProxy */;
+		};
+		FAA064D4269767ED0091C34A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA064AD269767E90091C34A /* mentoria */;
+			targetProxy = FAA064D3269767ED0091C34A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA064B7269767E90091C34A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA064B8269767E90091C34A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA064BF269767ED0091C34A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA064C0269767ED0091C34A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA064D9269767ED0091C34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA064DA269767ED0091C34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA064DC269767ED0091C34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mentoria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.joelbanzatto.mentoria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA064DD269767ED0091C34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mentoria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.joelbanzatto.mentoria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAA064DF269767ED0091C34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mentoriaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.joelbanzatto.mentoriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mentoria.app/mentoria";
+			};
+			name = Debug;
+		};
+		FAA064E0269767ED0091C34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mentoriaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.joelbanzatto.mentoriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mentoria.app/mentoria";
+			};
+			name = Release;
+		};
+		FAA064E2269767ED0091C34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mentoriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.joelbanzatto.mentoriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mentoria;
+			};
+			name = Debug;
+		};
+		FAA064E3269767ED0091C34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mentoriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.joelbanzatto.mentoriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mentoria;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA064A9269767E90091C34A /* Build configuration list for PBXProject "mentoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA064D9269767ED0091C34A /* Debug */,
+				FAA064DA269767ED0091C34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA064DB269767ED0091C34A /* Build configuration list for PBXNativeTarget "mentoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA064DC269767ED0091C34A /* Debug */,
+				FAA064DD269767ED0091C34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA064DE269767ED0091C34A /* Build configuration list for PBXNativeTarget "mentoriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA064DF269767ED0091C34A /* Debug */,
+				FAA064E0269767ED0091C34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA064E1269767ED0091C34A /* Build configuration list for PBXNativeTarget "mentoriaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA064E2269767ED0091C34A /* Debug */,
+				FAA064E3269767ED0091C34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAA064BA269767E90091C34A /* mentoria.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAA064BB269767E90091C34A /* mentoria.xcdatamodel */,
+			);
+			currentVersion = FAA064BB269767E90091C34A /* mentoria.xcdatamodel */;
+			path = mentoria.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAA064A6269767E90091C34A /* Project object */;
+}
